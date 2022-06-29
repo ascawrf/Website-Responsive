@@ -1,0 +1,151 @@
+@media only screen and (max-width: 992px) {
+    .video-list-thumbs {
+        position: relative;
+        display: block;
+        overflow: hidden;
+
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        .glyphicon-play-circle {
+            font-size: 35px;
+            right: 36%;
+            top: 27%;
+        }
+
+        .iframe h2 {
+            bottom: 0;
+            font-size: 12px;
+            height: 22px;
+            margin: 8px 0 0;
+        }
+    }
+
+
+    @media only screen and (min-width: 1200px) {
+        .nav-item > .nav-link {
+            padding: 5px 20px !important;
+            display: block !important;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .header-inner {
+            background-color: white !important;
+        }
+
+        .nav-item > .nav-link {
+            color: black !important
+        }
+
+        .logo {
+            color: #000 !important;
+            font-weight: 600 !important;
+        }
+
+        .content-banner .first-title {
+            font-size: 30px !important;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .all_news li {
+            position: relative;
+            align-items: center;
+            right: 70%;
+            white-space: nowrap;
+            font-size: 54px;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .theWayForward {
+            position: relative;
+            right: -1%;
+        }
+
+        .theWayForward h2 {
+            position: relative;
+            text-align: center;
+        }
+
+        .theWayForward p {
+            position: relative;
+        }
+    }
+
+    @media only screen and (max-width: 992px) {
+        .ishmael {
+            position: relative;
+            left: 2%;
+        }
+
+        .ishmael h2 {
+            position: relative;
+            text-align: center;
+            white-space: nowrap;
+            font-size: 40px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .eventShift {
+            position: relative;
+            left: -5%;
+        }
+
+        .eventShift h2 {
+
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .eventsHeader p {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        .btn-primary {
+            max-width: 98%;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .theWayForward {
+        position: relative;
+        left: 2%;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .theWayForward h2 {
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .theWayForward p {
+        position: relative;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .ishmael {
+        position: relative;
+        left: 2%;
+    }
+
+    .ishmael p {
+        font-size: 20px;
+    }
+
+    .ishmael h2 {
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        font-size: 17px;
+    }
+}
